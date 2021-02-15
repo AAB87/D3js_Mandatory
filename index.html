@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>M7_DataVisualization_Task1</title>
+<style>
+</style>
+  </head>
+  <body>
+    <h1 class="exerciseTitle">
+      Advanced Analytics on Big Data. Data Visualization<br>
+      Task 1: Mandatory exercise
+    </h1>
+    <div class="exerciseStatement">Display a <b>barchart</b> (start from <b><i>Barchart refactor sample</i></b>):
+      <ul>
+        <li>Adding space between columns.</li>
+        <li>Adding colors to each bar.</li>
+        <li>Adding a legend.</li>
+        <li>Showing the chart vertically.</li>
+        <li class="additionalFeatures"><b>(+)</b> Adding x-y axis labels and chart title</li>
+        <li class="additionalFeatures"><b>(+)</b> Adding animation and tooltips to bars</li>
+        <li class="additionalFeatures"><b>(+)</b> Change dataset and y-axis ticks</li>
+        <li class="additionalFeatures"><b>(+)</b> Adding several selectable datasets</li>
+      </ul>
+    </div>
+    <a href="https://github.com/AlonsoAndradeBlazquez/D3js_MandatoryTask1_MasterBigData.git">
+      <img class="gitIcon" src="icons/git_icon.png" alt="Link to Github repository" title="Link to Github repository: AlonsoAndradeBlazquez">
+    </a>
+    <hr>
+    <br>
+    <b>Select dataset: </b>
+    <select id="selectDataset">
+      <option value="oscarsBoxOffice">Oscars Box-Office from 2010</option>
+      <option value="rankingProgrammingLanguages">Ranking programming languages (TIOBE index March 2018)</option>
+    </select>
+    <br><br>
+  </body>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js" charset="utf-8"></script>
+  <script src="./data.js"></script>
+  <script src="./main.js"></script>
+</html>

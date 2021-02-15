@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin-top: 4px;
+}
+
+.exerciseTitle {
+  color:black;
+  font-size: 25px;
+  font-family: helvetica;
+  border:2px solid DodgerBlue;
+  background-color:rgb(231, 241, 241); 
+}
+
+.exerciseStatement {
+  font-family:helvetica; 
+  font-size:100%;
+  text-align:left;
+}
+
+.additionalFeatures {
+  color: darkgreen;
+}
+
+.gitIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.toolTip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center;
+}
