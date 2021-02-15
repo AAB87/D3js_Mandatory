@@ -18,7 +18,7 @@ Below there is an explanation on how to run the example and how it was developed
 ## Usage
 Please follow these steps to visualize the exercise:
 1. Move to any desired folder: ``cd <path>``.
-2. Clone there git repository: ``git clone https://github.com/AlonsoAndradeBlazquez/D3js_MandatoryTask_MasterBigData.git``.
+2. Clone there git repository: ``git clone https://github.com/AAB87/D3js_MandatoryTask_MasterBigData.git``.
 3. Move to folder "D3js_MandatoryTask_MasterBigData": ``cd D3js_MandatoryTask_MasterBigData``
 4. Open ``index.html`` in your favourite browser.
 
